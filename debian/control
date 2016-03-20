@@ -1,0 +1,14 @@
+Source: amadash
+Section: admin
+Priority: extra
+Maintainer: Igor Partola <igor@igorpartola.com>
+Build-Depends: debhelper (>= 8.0.0), python, dh-python
+Standards-Version: 3.9.5
+Homepage: https://github.com/ipartola/amadash
+X-Python-Version: >= 2.7
+
+Package: amadash
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-pypcap
+Description: Amazon Dash button monitor
+ Monitor Amazon Dash button presses and take actions based on them

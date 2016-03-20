@@ -1,0 +1,3 @@
+[submodule "amadash/ext/groper"]
+	path = amadash/ext/groper
+	url = git@github.com:ipartola/groper.git

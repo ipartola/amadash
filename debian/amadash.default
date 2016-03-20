@@ -1,0 +1,10 @@
+# Defaults for amadash initscript
+# sourced by /etc/init.d/amadash
+# installed at /etc/default/amadash by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_ARGS="$DAEMON_ARGS -c /etc/amadash.conf"

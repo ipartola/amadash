@@ -1,0 +1,15 @@
+*.pyc
+*.egg-info/
+build/
+.env
+tmp/
+dist/
+
+.pybuild/
+debian/amadash/
+amadash.debhelper.log
+debian/source/
+debian/amadash.postinst.debhelper
+debian/amadash.postrm.debhelper
+debian/amadash.prerm.debhelper
+debian/amadash.substvars
